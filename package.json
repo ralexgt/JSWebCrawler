@@ -1,0 +1,27 @@
+{
+	"name": "jswebcrawler",
+	"version": "1.0.0",
+	"description": "web crawler using javascript",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node src/main.js",
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+	},
+	"jest": {
+		"transform": {}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ralexgt/JSWebCrawler.git"
+	},
+	"author": "ralexgt",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ralexgt/JSWebCrawler/issues"
+	},
+	"homepage": "https://github.com/ralexgt/JSWebCrawler#readme",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
+}
