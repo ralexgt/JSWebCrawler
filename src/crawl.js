@@ -9,6 +9,7 @@ function normalizeURL(url) {
 	if (normalizedURL.slice(-1) === '/') {
 		normalizedURL = normalizedURL.slice(0, -1);
 	}
+	normalizedURL = normalizedURL.toLowerCase();
 	return normalizedURL;
 }
 

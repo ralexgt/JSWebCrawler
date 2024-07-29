@@ -12,3 +12,7 @@ test('Input: http://test.com/path2 | Expected: test.com/path2', () => {
 test('Input: test.com/path_s/path3/ | Expected: test.com/path_s/path3', () => {
 	expect(normalizeURL('test.com/path_s/path3/')).toBe('test.com/path_s/path3');
 });
+
+test('Input: TEST.com/path_s/path4/ | Expected: test.com/path_s/path4', () => {
+	expect(normalizeURL('TEST.com/path_s/path4/')).toBe('test.com/path_s/path4');
+});
